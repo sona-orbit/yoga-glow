@@ -32,7 +32,23 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-top:16px;color:v
 .step .num{flex:none;width:28px;height:28px;border-radius:50%;background:var(--leaf);color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center}
 .step p{margin:3px 0 0;font-size:14px;color:var(--ink)}
 .feat .ic{width:30px;height:30px;color:var(--leaf);margin-bottom:8px}.feat .ic svg{width:30px;height:30px}
-.timer{display:flex;gap:16px;align-items:center;margin:30px 0 6px;background:linear-gradient(135deg,#1f2a24,#141b17);border:1px solid var(--line);border-radius:20px;padding:22px 24px;color:#eef2ee}
-.timer .ti{flex:none;width:46px;height:46px;color:#8fb79b}.timer .ti svg{width:46px;height:46px}
-.timer h3{margin:0 0 4px;color:#fff;font-size:17px}.timer p{margin:0;font-size:14px;color:#c3ccc4}
+/* long class -> ~30s visual */
+.tl{display:flex;align-items:center;gap:12px;margin:24px 0 6px;flex-wrap:wrap}
+.tl-long{flex:1;min-width:130px;height:60px;border-radius:14px;border:1px solid var(--line);
+  background:var(--card) repeating-linear-gradient(90deg,transparent,transparent 9px,var(--line) 9px,var(--line) 10px);
+  display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px;letter-spacing:.04em}
+.tl-arrow{flex:none;color:var(--leaf);font-size:20px}
+.tl-short{flex:none;padding:16px 24px;border-radius:999px;color:#2a2410;font-weight:700;font-size:15px;
+  background:linear-gradient(135deg,#f0c75d,#d7aa3f);box-shadow:0 10px 26px rgba(232,184,75,.42)}
+/* timer section (gold ring on deep night, matches the app) */
+.timer{display:flex;gap:22px;align-items:center;margin:28px 0 6px;flex-wrap:wrap;
+  background:radial-gradient(ellipse 130% 110% at 28% -15%,#221a4a 0%,#0d0b1e 62%);
+  border:1px solid #241d45;border-radius:22px;padding:26px 26px;color:#eef2ee}
+.timer .tring{flex:none}
+.timer-body{flex:1;min-width:240px}
+.timer h3{margin:0 0 5px;color:#fff;font-size:19px;letter-spacing:.02em}
+.timer p{margin:0 0 12px;font-size:14px;color:#c3ccc4;max-width:460px}
+.tfeat{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+.tfeat li{position:relative;padding-left:18px;font-size:13.5px;line-height:1.55;color:#d7ddd6}
+.tfeat li::before{content:"";position:absolute;left:0;top:8px;width:7px;height:7px;border-radius:50%;background:#e8b84b}
 </style></head><body><div class="wrap"><header><svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#e3ead9"/><path d="M32 16c6 6 6 14 0 20-6-6-6-14 0-20z" fill="#43664f"/><path d="M20 40c8 2 16 2 24 0-4 6-20 6-24 0z" fill="#43664f"/></svg><span class="brand">Yoga Glow · 瑜光 30</span><nav><a href="https://sona-orbit.github.io/yoga-glow/zh-Hans/">首页</a><a href="https://sona-orbit.github.io/yoga-glow/zh-Hans/privacy/">隐私</a><a href="https://sona-orbit.github.io/yoga-glow/zh-Hans/support/" style=font-weight:600>支持</a></nav></header><h1>支持</h1><div class="qa"><b>会上传我的视频吗？</b>不会。你选的视频与制作的短片完全在 iPhone 上处理，不会离开设备。</div><div class="qa"><b>为什么要问追踪？</b>瑜光 30 以广告维持免费。iOS 会问一次是否允许追踪；你可以拒绝，仍能完整使用，只会看到非个性化广告。</div><div class="qa"><b>短片存在哪？</b>存在 App 内，按保存会存回「照片」。点右上角历史按钮可看过去的短片。</div><div class="qa"><b>联系我们</b>有任何问题，来信：<a href="mailto:sona.orbit.hi@gmail.com">sona.orbit.hi@gmail.com</a></div><div class="langs"><a href="https://sona-orbit.github.io/yoga-glow/support/">English</a><a href="https://sona-orbit.github.io/yoga-glow/zh-Hant/support/">繁體中文</a><a href="https://sona-orbit.github.io/yoga-glow/zh-Hans/support/" style=color:var(--leaf);font-weight:600>简体中文</a><a href="https://sona-orbit.github.io/yoga-glow/ja/support/">日本語</a><a href="https://sona-orbit.github.io/yoga-glow/ko/support/">한국어</a><a href="https://sona-orbit.github.io/yoga-glow/th/support/">ไทย</a></div><footer>© 2026 Sona Orbit · <a href="mailto:sona.orbit.hi@gmail.com">sona.orbit.hi@gmail.com</a></footer></div></body></html>
